@@ -1,0 +1,38 @@
+.container{
+    width: 600px;
+    
+}
+h1{
+    font-size: 60px;
+    text-align: center;
+}
+.row{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.col{
+    width: 46%;
+}
+input{
+    margin-top: 20px;
+}
+select,input{
+    width: 100%;
+    margin-bottom: 15px;
+    font-size: 20px;
+    padding: 8px 15px;
+    font-weight:700 
+}
+button{
+    width: 200px;
+    display: block;
+    padding: 10px;
+    margin: 0 auto;
+    border-radius: 15px;
+    background-color: #e62e00;
+    color: #fff;
+    border: 0;
+    cursor: pointer;
+   font-size: 22px;
+}
